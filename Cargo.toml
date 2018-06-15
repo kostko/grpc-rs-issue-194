@@ -3,7 +3,11 @@ name = "grpcio-issue-194"
 version = "0.0.0"
 description = "grpcio issue 194"
 
+[features]
+cpupool = ["futures-cpupool"]
+
 [dependencies]
 grpcio = "0.3.0"
 futures = "0.1"
+futures-cpupool = { version = "0.1", optional = true }
 
