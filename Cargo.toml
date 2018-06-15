@@ -1,0 +1,9 @@
+[package]
+name = "grpcio-issue-194"
+version = "0.0.0"
+description = "grpcio issue 194"
+
+[dependencies]
+grpcio = "0.3.0"
+futures = "0.1"
+
